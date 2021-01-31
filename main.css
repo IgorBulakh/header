@@ -1,0 +1,140 @@
+:root {
+  /*background-color*/
+  --prymary-bg-color: #ffffff;
+  --worck-bg-color: #e5e5e5;
+  --btn-bg-color: #2196f3;
+  --darck-grey-color: #2f303a;
+  --team-bg-color: #f5f4fa;
+  --caption-bg-color: rgba(196, 196, 196, 0.4);
+  --sochial-link-footer: rgba(255, 255, 255, 0.1);
+
+  /*text-color*/
+  --prymari-txt-color: #757575;
+  --title-txt-color: #212121;
+  --acent-txt-color: #2196f3;
+  --white-txt-color: #ffffff;
+
+  /* border-color-links-color-svg */
+  --link-grey-color: #afb1b8;
+  --border-form-footer: rgba(255, 255, 255, 0.3);
+}
+
+.list {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+.title {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  width: 1200px;
+}
+
+/* main-sections */
+.section {
+  /* width: 100%; */
+}
+
+/* page-header */
+.page-header {
+  padding-top: 35px;
+  padding-bottom: 35px;
+  background-color: var(--prymary-bg-color);
+}
+
+/*logo*/
+
+.logo {
+  margin-right: 90px;
+
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+
+  color: var(--acent-txt-color);
+}
+
+.logo-black {
+  color: var(--title-txt-color);
+}
+
+/* header-nav-block */
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* menu-block */
+.menu-block {
+  display: flex;
+  align-items: center;
+}
+
+/*nav header*/
+.site-nav {
+  display: flex;
+}
+
+.link-portal {
+  margin-right: 50px;
+}
+.link-portal:last-child {
+  margin-right: 0;
+}
+
+.site-nav .link {
+  color: var(--title-txt-color);
+
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--acent-txt-color);
+}
+
+/* contact */
+
+.nav-contact .contact-list {
+  margin-right: 50px;
+}
+
+.nav-contact .contact-list:last-child {
+  margin-right: 0;
+}
+
+.contact-list .link {
+  display: inline-flex;
+  color: var(--prymari-txt-color);
+}
+
+.link-icon {
+  display: block;
+  margin-right: 10px;
+
+  width: 15px;
+  height: 15px;
+
+  fill: var(--prymari-txt-color);
+}
+
+.contact-list .link:hover .link-icon {
+  fill: var(--acent-txt-color);
+}
